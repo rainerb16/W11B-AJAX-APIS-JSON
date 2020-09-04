@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title-text {
+    text-decoration: underline;
+    text-align: center;
+    margin: 10px;
+}
+
+#bored {
+    color: red;
+}
+
+#sub-text {
+    margin: 5vw;
+    text-align: center;
+}
+
+#random-activity {
+    margin: 10vw;
+}
+
+#activity-button {
+    margin: 10vw;
+    border: 3px solid black;
+    box-shadow: 8px 5px 10px grey;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 1020px) {
+  
+    #title-text {
+      text-decoration: underline;
+      text-align: center;
+      margin: 10px 0px 30px 0px;
+    }
+
+    #bored {
+      color: red;
+    }
+
+    #sub-text {
+      margin: 2vw;
+      text-align: center;
+    }
+
+    #random-activity {
+      margin: 3vw;
+      font-size: 20px;
+    }
+
+    #activity-button {
+      margin: 5vw;
+      border: 3px solid black;
+      box-shadow: 8px 5px 10px grey;
+      padding: 10px;
+    }
+
+    #cat-bored {
+        width: 30%;
+        border-radius: 25%;
+        border: 5px solid black;
+    }
+}
